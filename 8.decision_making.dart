@@ -30,4 +30,19 @@ void main(List<String> args) {
     print('a and b are less than c');
   }
 
+  // switch case statements
+  int num = 10;
+  switch (num) {
+    case 1:
+      print('One');
+      break;
+    case 2:
+      print('Two');
+      break;
+    case 3:
+      print('Three');
+      break;
+    default:
+      print('Not Found');
+  }
 }
