@@ -3,7 +3,13 @@ void main(List<String> args) {
   f1();
   f2();
   save_contact(name: 'Asiimire', phone: '+25678912345');
+  dp_name(name: "Tesimony");
 }
+
+// display name
+dp_name({
+  required String name,
+}) {}
 
 save_contact({
   required String name,
